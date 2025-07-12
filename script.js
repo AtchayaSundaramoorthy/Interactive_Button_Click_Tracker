@@ -13,5 +13,5 @@ const display = document.getElementById("clickDisplay");
 
 button.addEventListener("click", function () {
   const currentCount = counter();
-  display.textContent = "Clicks: " + currentCount;
+  display.textContent = "Taps: " + currentCount;
 });
